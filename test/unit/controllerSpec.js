@@ -63,7 +63,7 @@ describe('Controllers ::', function() {
       it('should not add blank todos', function() {
         scope.newTodo = '';
         scope.addTodo();
-        expect(scope.todos.length).toBe(0);
+        expect(scope.todos.length).toBe(10);
       });
 
       it('should not add items consisting only of whitespaces', function () {
